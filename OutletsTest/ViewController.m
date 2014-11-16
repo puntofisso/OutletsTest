@@ -9,10 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) IBOutlet UILabel* testlabel;
 @end
 
 @implementation ViewController
+@synthesize testlabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
